@@ -22,3 +22,8 @@ dist/
 nbdist/
 .nb-gradle/
 /nbproject/
+
+
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
