@@ -1,10 +1,7 @@
-import { useState } from 'react'
 import Blueprints from "./components/Blueprints";
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div>
       <Blueprints />
@@ -12,4 +9,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
